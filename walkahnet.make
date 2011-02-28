@@ -12,6 +12,7 @@ projects[mollom][subdir] = "contrib"
 projects[gravatar][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 projects[features][subdir] = "contrib"
+projects[redirect][subdir] = "contrib"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0-beta2"
