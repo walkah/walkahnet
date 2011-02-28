@@ -1,0 +1,18 @@
+name = walkah.net
+description = my theme
+core = 7.x
+
+regions[header] = Header
+regions[help] = Help
+regions[content] = Content
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[sidebar] = Sidebar
+
+stylesheets[all][]   = css/html5.css
+stylesheets[all][]   = css/layout.css
+stylesheets[all][]   = css/style.css
+stylesheets[print][] = css/print.css
+
+
+scripts[] = js/walkah.js

@@ -1,0 +1,16 @@
+/* $Id */
+
+/* CSS to get the new stuff in HTML5 working from the start. */
+
+section,
+article,
+header,
+footer,
+nav,
+aside,
+hgroup {
+  display: block;
+}
+small {
+  font-size: 85%;
+}
