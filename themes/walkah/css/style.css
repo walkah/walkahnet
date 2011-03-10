@@ -302,3 +302,8 @@ img.right {
 #edit-comment-body .filter-wrapper {
     display: none;
 }
+
+p.elsewhere img {
+    width: 48px;
+    height: 48px;
+}
