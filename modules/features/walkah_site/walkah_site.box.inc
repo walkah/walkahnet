@@ -17,7 +17,7 @@ function walkah_site_default_box() {
     'body' => array(
       'value' => '<div typeof="foaf:Person" about="#me" class="vcard">
 <img src="/<?php print drupal_get_path(\'theme\', \'walkah\'); ?>/logo.png" alt="james walker" width="100" class="photo" rel="foaf:img" />
-<p><span class="fn n" property="foaf:name">James Walker</span> (a.k.a. <a href="http://walkah.net/" property="foaf:nickname" class="url nickname">walkah</a>) is a <span property="foaf:interest">free software</span> developer and advocate for the <span property="foaf:interest">open web</span>.</p>
+<p><span class="fn n" property="foaf:name">James Walker</span> (a.k.a. <a href="http://walkah.net/" property="foaf:nickname" class="url uid nickname">walkah</a>) is a <span property="foaf:interest">free software</span> developer and advocate for the <span property="foaf:interest">open web</span>.</p>
 <p><a href="/james-walker">more about james</a></p>
 </div>',
       'format' => '2',
