@@ -25,7 +25,7 @@ a:hover {
 }
 
 h1, h2 { 
-    font-family : "Georgia", "Times", serif; 
+    font-family : "Typewriter", "Georgia", "Times", serif; 
     font-weight: normal; 
     text-transform: lowercase;
 }
@@ -245,6 +245,10 @@ div.block div.item-list li {
   margin-left: 0;
 }
 
+div.block div.boxes-box-content {
+  font-size: 0.8em;
+}
+
 #search-box {
   float: right;
   width: 165px;
@@ -306,4 +310,30 @@ img.right {
 p.elsewhere img {
     width: 48px;
     height: 48px;
+}
+
+ul.connect {
+  margin: 0;
+  padding: 0;
+}
+
+ul.connect li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.connect li img {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+}
+
+ul.connect li a {
+  font-size: 1.2em;
+  color: #676767;
+}
+
+ul.connect li a:hover {
+  text-decoration: none;
 }
