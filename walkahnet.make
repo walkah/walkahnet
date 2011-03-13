@@ -14,6 +14,8 @@ projects[webform][subdir] = "contrib"
 projects[features][subdir] = "contrib"
 projects[redirect][subdir] = "contrib"
 
+projects[boxes][subdir] = "contrib"
+projects[boxes][version] = "1.0-beta2"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0-beta2"
 projects[markdown][subdir] = "contrib"
