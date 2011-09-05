@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * walkah_site.features.filter.inc
+ */
 
 /**
  * Implementation of hook_filter_default_formats().

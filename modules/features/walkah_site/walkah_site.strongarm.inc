@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * walkah_site.strongarm.inc
+ */
 
 /**
  * Implementation of hook_strongarm().
@@ -169,7 +173,7 @@ function walkah_site_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_blog_pattern';
-  $strongarm->value = 'blog/[node:author:name]/[node:title]';
+  $strongarm->value = 'blog/[node:title]';
   $export['pathauto_node_blog_pattern'] = $strongarm;
 
   $strongarm = new stdClass;

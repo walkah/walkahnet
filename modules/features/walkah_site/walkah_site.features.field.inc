@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * walkah_site.features.field.inc
+ */
 
 /**
  * Implementation of hook_field_default_fields().
@@ -13,12 +17,12 @@ function walkah_site_field_default_fields() {
       'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(
-        '0' => 'node',
+        0 => 'node',
       ),
       'field_name' => 'body',
       'indexes' => array(
         'format' => array(
-          '0' => 'format',
+          0 => 'format',
         ),
       ),
       'module' => 'text',
@@ -79,13 +83,13 @@ function walkah_site_field_default_fields() {
       'field_name' => 'taxonomy_vocabulary_1',
       'indexes' => array(
         'tid' => array(
-          '0' => 'tid',
+          0 => 'tid',
         ),
       ),
       'module' => 'taxonomy',
       'settings' => array(
         'allowed_values' => array(
-          '0' => array(
+          0 => array(
             'parent' => 0,
             'vocabulary' => 'vocabulary_1',
           ),
@@ -144,7 +148,7 @@ function walkah_site_field_default_fields() {
       'field_name' => 'upload',
       'indexes' => array(
         'fid' => array(
-          '0' => 'fid',
+          0 => 'fid',
         ),
       ),
       'module' => 'file',
@@ -220,12 +224,12 @@ function walkah_site_field_default_fields() {
       'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(
-        '0' => 'node',
+        0 => 'node',
       ),
       'field_name' => 'body',
       'indexes' => array(
         'format' => array(
-          '0' => 'format',
+          0 => 'format',
         ),
       ),
       'module' => 'text',
@@ -286,7 +290,7 @@ function walkah_site_field_default_fields() {
       'field_name' => 'upload',
       'indexes' => array(
         'fid' => array(
-          '0' => 'fid',
+          0 => 'fid',
         ),
       ),
       'module' => 'file',
@@ -362,12 +366,12 @@ function walkah_site_field_default_fields() {
       'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(
-        '0' => 'node',
+        0 => 'node',
       ),
       'field_name' => 'body',
       'indexes' => array(
         'format' => array(
-          '0' => 'format',
+          0 => 'format',
         ),
       ),
       'module' => 'text',

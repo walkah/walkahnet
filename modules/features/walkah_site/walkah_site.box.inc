@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * walkah_site.box.inc
+ */
 
 /**
  * Implementation of hook_default_box().
